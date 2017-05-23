@@ -8,11 +8,62 @@ Colors:
 */
 
 *{
-	margin:0;
+	margin: 0;
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
 }
-.header{
-	padding: 2,8%;
+nav{
+	width: 100%;
+	height: 10%;
 	background-color: #E54E79; 
+	position: fixed;
 }
+
+.logo{
+	left: 0;
+    top: 7px;
+    width: 128px;
+    height: 67px;
+    padding: 0.4% 2%;
+    text-align: left;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url("../img/logo-white.png");
+    background-size: 40px 29px;
+}
+.enlaces{
+	 list-style: none;
+	 position: absolute;
+	 top: 0;
+	 right: 100px;
+	 margin: 0;
+	 padding: 0;
+	 overflow: hidden;
+	}
+
+	.navegador ul li {
+	 display: inline-block;
+	}
+
+	.navegador ul li a {
+	 display: inline-block;
+	 color: white;
+	 text-align: center;
+	 padding: 26px;
+	 text-decoration: none;
+	}
+
+	.navegador li a:hover{
+	 background-color: #E56385 ;
+}
+.formularioFondo {
+    background: cyan;
+    width: 100%;
+    height: 100vh;
+    background-image: ("..img/cropped-Lyft-Promo-Codes-car-1.jpg")
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
