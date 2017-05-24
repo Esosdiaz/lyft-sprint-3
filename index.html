@@ -9,21 +9,21 @@
 </head>
 <body>
 	<header class="header">
-		<nav class="navegador">
-		<div class="logo"></div>
-		<ul class="enlaces">
+		<nav class="navegador"> <!--NavBar-->
+		<div class="logo"></div> <!--Espacio para el logo-->
+		<ul class="enlaces"> <!--Lista con los enlaces de la derecha-->
 				<li><a href="drive">Drive</a></li>
 				<li><a href="Explore">Explore</a></li>
 				<li><a href="Help">Help</a></li>
 		</span></nav>
-		<section class="formulario">
-			<div class="cajaBlanca">
-				<h1 class="tituloFormulario">TURN MILES INTO MONEY</h1>
-				<p class="subtituloFormulario"> SIGN UP INTO DRIVE</p>
-				<input type="" required="" class="inputFormulario" placeholder="Phone Number">
-				<button type="button" class="botonBecome"> BECOME A DRIVER <i class="fa fa-heart" aria-hidden="true"></i></button>
+		<section class="formulario"> <!--Seccion formulario-->
+			<div class="cajaBlanca"> <!--Caja blanca, con formulario-->
+				<h1 class="tituloFormulario">TURN MILES INTO MONEY</h1> <!--Título del formulario-->
+				<p class="subtituloFormulario"> SIGN UP INTO DRIVE</p> <!--parrafo con el subtitulo-->
+				<input type="" required="" class="inputFormulario" id="inputForm" placeholder="Phone Number"> <!--input-->
+				<button type="button" class="botonBecome" id="btnBecome"> BECOME A DRIVER <i class="fa fa-heart" aria-hidden="true"></i></button> <!--boton-->
 				<p class="alreadyApplied"> Already applied? Check the status of your application here. </p>
-				<p class="earn"> Earn money for inviting friends to drive. Learn more.</p>
+				<p class="earn"> Earn money for inviting friends to drive. Learn more.</p> <!--parrafos abajo-->
 			</div>
 		</section>
 	</header>	
@@ -32,9 +32,10 @@
 				<h1> PLAY WITH LIFT </h1></div>
 			<div class="playBlanca">
 				<i class="fa fa-car" id="faCar1" aria-hidden="true"></i><input type="" class="x" placeholder="X coordinate"><i class="fa fa-car" id="faCar2" aria-hidden="true"></i><input type="" class="y" placeholder="Y coordinate"><br>
-				<button type="button" class="botonStart">Start!</button>
+				<button type="button" id="btnStart" class="botonStart">Start!</button>
 			</div>
 		</section>
+		<div id="tablero" class="tablerito"></div>
 		<footer class="footer">
 			<span class="sprint3"> SPRINT 3 - Proyect </span>
 			<span class="iconos">
@@ -49,5 +50,6 @@
 				<li><a href="link3">Link 3</a></li>
 			</ul>
 		</footer>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
