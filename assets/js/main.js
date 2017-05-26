@@ -9,8 +9,8 @@ alert("Por favor, ingrese su número de teléfono"); //entonces envía una alert
 };
 
 var validarStart = function(){  
-var inputX = document.getElementById("xInput").value; //se asigna el valor del input dentro de la variable inputX
-var inputY = document.getElementById("yInput").value; //se asigna el valor del input dentro de la variable inputY
+var inputX = document.getElementById("inputX").value; //se asigna el valor del input dentro de la variable inputX
+var inputY = document.getElementById("inputY").value; //se asigna el valor del input dentro de la variable inputY
 if(inputX > 10 || inputX == "" || inputX < 1){ //si el inputX está vacío, o es menor a 1 o mayor a 10
 	alert("Por favor, ingrese su posición del 1 al 10"); //envía una alerta para correccion
 } else if (inputY > 6 || inputY == "" || inputY < 1){ //si el inputY está vacío, o es menor a 1 o mayor a 6
